@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@space/common",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "vitest": "^4.0.8"
+  }
+}

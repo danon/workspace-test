@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@space/server",
+  "type": "module",
+  "version": "0.0.1",
+  "dependencies": {
+    "@space/common": "^0.0.1",
+    "vitest": "^4.0.8"
+  }
+}
