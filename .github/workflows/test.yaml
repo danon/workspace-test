@@ -18,14 +18,15 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Install
+        run: yarn install
+
       - name: Run common unit tests
         run: |
           cd packages/common/
-          yarn install
           yarn run vitest --run
 
       - name: Run server unit tests
         run: |
           cd packages/server/
-          yarn install
           yarn run vitest --run
